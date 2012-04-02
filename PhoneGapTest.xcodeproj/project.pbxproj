@@ -38,6 +38,8 @@
 		2828C04515290186002DF6D7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2828C04415290186002DF6D7 /* MainViewController.m */; };
 		2828C04715290186002DF6D7 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2828C04615290186002DF6D7 /* MainViewController.xib */; };
 		2828C04B15290186002DF6D7 /* verify.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2828C04A15290186002DF6D7 /* verify.sh */; };
+		2828C05215290204002DF6D7 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 2828C05115290204002DF6D7 /* www */; };
+		28666BF3152920BA0085FA29 /* MyPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 28666BF2152920BA0085FA29 /* MyPlugin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,10 +57,10 @@
 		2828C00D15290186002DF6D7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		2828C00F15290186002DF6D7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		2828C01115290186002DF6D7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		2828C01515290186002DF6D7 /* PhoneGapTest-Info.plist */ = {isa = PBXFileReference; path = "PhoneGapTest-Info.plist"; sourceTree = "<group>"; };
+		2828C01515290186002DF6D7 /* PhoneGapTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhoneGapTest-Info.plist"; sourceTree = "<group>"; };
 		2828C01715290186002DF6D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2828C01915290186002DF6D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2828C01B15290186002DF6D7 /* PhoneGapTest-Prefix.pch */ = {isa = PBXFileReference; path = "PhoneGapTest-Prefix.pch"; sourceTree = "<group>"; };
+		2828C01B15290186002DF6D7 /* PhoneGapTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhoneGapTest-Prefix.pch"; sourceTree = "<group>"; };
 		2828C01C15290186002DF6D7 /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		2828C02115290186002DF6D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2828C02515290186002DF6D7 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -71,13 +73,17 @@
 		2828C03915290186002DF6D7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 		2828C03B15290186002DF6D7 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		2828C03D15290186002DF6D7 /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		2828C04015290186002DF6D7 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		2828C04015290186002DF6D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		2828C04115290186002DF6D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		2828C04315290186002DF6D7 /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		2828C04315290186002DF6D7 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		2828C04415290186002DF6D7 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		2828C04615290186002DF6D7 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		2828C04915290186002DF6D7 /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		2828C04915290186002DF6D7 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		2828C04A15290186002DF6D7 /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		2828C05115290204002DF6D7 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		28666BF1152920BA0085FA29 /* MyPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyPlugin.h; path = Classes/MyPlugin.h; sourceTree = "<group>"; };
+		28666BF2152920BA0085FA29 /* MyPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyPlugin.m; path = Classes/MyPlugin.m; sourceTree = "<group>"; };
+		28666BF5152924590085FA29 /* MyPlugin.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = MyPlugin.js; path = www/MyPlugin.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,8 @@
 		2828BFE715290186002DF6D7 = {
 			isa = PBXGroup;
 			children = (
+				28666BF5152924590085FA29 /* MyPlugin.js */,
+				2828C05115290204002DF6D7 /* www */,
 				2828C01315290186002DF6D7 /* PhoneGapTest */,
 				2828BFF815290186002DF6D7 /* Frameworks */,
 				2828BFF615290186002DF6D7 /* Products */,
@@ -247,6 +255,8 @@
 				2828C04115290186002DF6D7 /* AppDelegate.m */,
 				2828C04315290186002DF6D7 /* MainViewController.h */,
 				2828C04415290186002DF6D7 /* MainViewController.m */,
+				28666BF1152920BA0085FA29 /* MyPlugin.h */,
+				28666BF2152920BA0085FA29 /* MyPlugin.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -329,6 +339,7 @@
 				2828C03E15290186002DF6D7 /* Cordova.plist in Resources */,
 				2828C04715290186002DF6D7 /* MainViewController.xib in Resources */,
 				2828C04B15290186002DF6D7 /* verify.sh in Resources */,
+				2828C05215290204002DF6D7 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +369,7 @@
 				2828C01A15290186002DF6D7 /* main.m in Sources */,
 				2828C04215290186002DF6D7 /* AppDelegate.m in Sources */,
 				2828C04515290186002DF6D7 /* MainViewController.m in Sources */,
+				28666BF3152920BA0085FA29 /* MyPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +444,7 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -452,6 +465,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -475,6 +489,7 @@
 					"DEBUG=1,",
 					"CORDOVA_FRAMEWORK=1",
 				);
+				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "PhoneGapTest/PhoneGapTest-Info.plist";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -505,6 +520,7 @@
 					"NDEBUG=1,",
 					"CORDOVA_FRAMEWORK=1",
 				);
+				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "PhoneGapTest/PhoneGapTest-Info.plist";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -542,6 +558,7 @@
 				2828C05015290186002DF6D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -24,6 +24,8 @@
 	<array/>
 	<key>Plugins</key>
 	<dict>
+		<key>com.shaunmartin.MyPlugin</key>
+		<string>MyPlugin</string>
 		<key>org.apache.cordova.accelerometer</key>
 		<string>CDVAccelerometer</string>
 		<key>org.apache.cordova.camera</key>
